@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -27,18 +28,18 @@
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </label>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Item 1</a></li>
+                <li><a>Home</a></li>
                 <li>
-                  <a>Parent</a>
+                  <a>Contuct us</a>
                   <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
+                    <li><a>About us</a></li>
+                    <li><a>Shop</a></li>
                   </ul>
                 </li>
-                <li><a>Item 3</a></li>
+                <li><a>All Furits</a></li>
               </ul>
             </div>
-            <div class="flex justify-center lg:hidden">
+            <div class="flex justify-center lg:hidden pb-5">
               <img src="./images/logo.png">
               <h1 class="text-black font-bold text-4xl pt-3">Fruit Brust</h1>
             </div>
@@ -48,16 +49,16 @@
           <div class=" hidden lg:grid grid-cols-3 bg-[#F85559] rounded-[600px] h-[80px]">
             <div>
               <!-- list menu -->
-              <ul class="flex gap-4 justify-center pt-5 text-white font-medium text-[18px]">
+              <ul class="flex gap-4 justify-center pt-6 text-white font-medium text-[18px]">
                 <li><a href="">Home</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">Shop</a></li>
                 <li><a href="">All Furits</a></li>
-                <li></li>
+
               </ul>
             </div>
             <!-- logo brust -->
-            <div class="flex justify-center gap-2">
+            <div class="flex justify-center gap-2 pb-1">
               <img src="./images/logo.png" class="w-[54.517px] h-[60px] pt-2">
               <h1 class="text-white font-bold text-4xl pt-3">Fruit Brust</h1>
             </div>
@@ -88,7 +89,7 @@
                           <div class="max-w-md">
                             <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
                                 <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-primary">Get Started</button>
+                            <button class="btn bg-red-400 text-white ">Shop Now</button>
                           </div>
                         </div>
                       </div>
@@ -107,7 +108,7 @@
                               <div class="max-w-md">
                                 <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
                                 <p class="mb-5">We supply highly quality organic products</p>
-                                <button class="btn btn-primary">Get Started</button>
+                                <button class="btn bg-red-400 text-white ">Shop Now</button>
                               </div>
                             </div>
                           </div>
@@ -126,7 +127,7 @@
                               <div class="max-w-md">
                                 <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
                                 <p class="mb-5">We supply highly quality organic products</p>
-                                <button class="btn btn-primary">Get Started</button>
+                                <button class="btn bg-red-400 text-white ">Shop Now</button>
                               </div>
                             </div>
                           </div>
@@ -225,16 +226,16 @@
         </section>
         <section>
           <!-- cards sectinos -->
-            <div class="flex lg:flex-row justify-center gap-7 flex-col">
+            <div class="grid lg:grid-cols-4 gap-5 pt-20">
               <div class="card  bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
+                <figure class="px-10 pt-14">
                   <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                 </figure>
-                <div class="card-body items-center text-center">
+                <div class="card-body items-center text-center p-6">
                   <h2 class="card-title">12.90$ - 18.85$</h2>
                   <hr>
-                  <p>Apples</p>
-                  <div class="rating pt-10 pb-7">
+                  <p>Apple</p>
+                  <div class="rating pt-20 pb-7">
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -384,7 +385,7 @@
           
         </section>
         <div class="text-center pt-28">
-          <button class="btn">Shop All</button>
+          <button class="btn bg-red-400 text-white ">Shop All</button>
         </div>
         
         <!-- meet our clint section -->
@@ -421,7 +422,7 @@
                 <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-[14px] font-bold text-white">Awlad Hossain</h2>
+                <h2 class="text-[14px] font-bold text-white">Safia Chowdhury</h2>
                 <p class="text-[16px] font-medium text-white">Fruits Expert</p>
               </div>
               <div class="text-center">
@@ -435,7 +436,7 @@
                 <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-[14px] font-bold text-white">Awlad Hossain</h2>
+                <h2 class="text-[14px] font-bold text-white">Rakib Hossain</h2>
                 <p class="text-[16px] font-medium text-white">Fruits Expert</p>
               </div>
               <div class="text-center">
@@ -449,7 +450,7 @@
                 <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-[14px] font-bold text-white">Awlad Hossain</h2>
+                <h2 class="text-[14px] font-bold text-white">Chayti</h2>
                 <p class="text-[16px] font-medium text-white">Fruits Expert</p>
               </div>
               <div class="text-center">
@@ -467,7 +468,7 @@
               <p class="pt-2 text-base text-slate-500 font-medium]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!-- list of team -->
-            <div class="flex gap-8">
+            <div class="flex gap-8 lg:flex-row flex-col">
               <div>
                 <div class="flex gap-5 pt-32">
                   <div><i class="fa-solid fa-people-group text-8xl"></i></div>
@@ -480,7 +481,7 @@
                 <div class="flex gap-5 ">
                   <div><i class="fa-regular fa-heart text-9xl"></i></div>
                   <div class="">
-                    <h1 class="text-[24px] font-extrabold">Dedicated Team</h1>
+                    <h1 class="text-[24px] font-extrabold">Fresh is Best</h1>
                      <hr class="w-[100px]">
                     <p class="text-[16px] font-medium">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
@@ -488,7 +489,7 @@
                 <div class="flex gap-5 ">
                   <div><i class="fa-solid fa-gifts text-8xl"></i></div>
                   <div class="">
-                    <h1 class="text-[24px] font-extrabold">Dedicated Team</h1>
+                    <h1 class="text-[24px] font-extrabold">Gift Certficated</h1>
                      <hr class="w-[100px]">
                     <p class="text-[16px] font-medium">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
@@ -500,11 +501,11 @@
               <div>
                 <div class="flex gap-5 pt-32">
                   <div class="text-right">
-                    <h1 class="text-[24px] font-extrabold">Integrated Supplier</h1>
+                    <h1 class="text-[24px] font-extrabold">Integrated Suppliers</h1>
                      
                     <p class="text-[16px] font-medium">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
-                  <div><i class="fa-solid fa-people-group text-8xl"></i></div>
+                  <div><i class="fa-regular fa-lemon text-8xl"></i></i></div>
                   
                 </div>
                 <div class="flex gap-5 ">
@@ -513,7 +514,7 @@
                 
                     <p class="text-[16px] font-medium">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
-                  <div><i class="fa-regular fa-heart text-9xl"></i></div>
+                  <div><i class="fa-solid fa-ice-cream text-8xl"></i></i></div>
                  
                 </div>
                 <div class="flex gap-5 ">
@@ -522,7 +523,7 @@
                     
                     <p class="text-[16px] font-medium">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                   </div>
-                  <div><i class="fa-solid fa-gifts text-8xl"></i></div>
+                  <div><i class="fa-solid fa-thumbs-up text-8xl"></i></i></div>
                 </div>
               </div>
             </div>
